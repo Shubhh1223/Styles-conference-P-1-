@@ -1,0 +1,141 @@
+/***************************tag element****************************************/
+body{
+  line-height: 1.6;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  padding: 0 5px 0 5px;
+
+}
+
+h1{
+  color:#008080;
+}
+
+/****************************class element*************************************/
+.bottom{
+  background-color: #008080;
+  padding: 50px 0;
+}
+
+.bottom--menu{
+  position: absolute;
+  right:200px;
+}
+
+.copyright{
+  color: #40E0D0;
+  position: absolute;
+  left: 150px;
+  bottom:;
+
+}
+
+
+.middle-up{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width:960px;
+  margin: 0 auto;
+
+}
+
+.middle-down{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width:960px;
+  margin: 0 auto;
+
+}
+
+.middle-p{
+  font-size: 20px;
+  color: grey;
+  line-height: 1.2;
+}
+
+.middle-a{
+  color: grey;
+  text-decoration: underline;
+}
+
+.middle-left{
+  display: inline-block;
+  width: 40%;
+}
+
+.middle-right{
+  display: inline-block;
+  vertical-align: top;
+  width:40%;
+}
+
+.top-up{
+  background-color: #008080;
+  color:white;
+  margin: 0;
+  padding: 25px 0 10px 0;
+
+}
+
+.top-heading{
+  font-size: 3rem;
+  position:relative;
+  left: 300px;
+
+}
+
+.top-down{
+  background-color: #D5F2A8;
+  padding-bottom: 30px;
+}
+
+.top-down-heading{
+  width: 20%;
+  margin: 0 auto ;
+  padding: 30px 0;
+  color:	#008080;
+  font-size: 35px;
+  text-align:center;
+
+
+}
+
+.top-down-p{
+  font-size: 22px;
+  color: 	#008000;
+  width:60%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+
+.location{
+  font-size: 1.6rem;
+  text-align: right;
+  padding-right: 50px;
+  position: absolute;
+  right: 250px;
+  top:55px;
+  color: #40E0D0;
+
+}
+
+.start-up{
+  position: absolute;
+  right: 280px;
+  top:140px;
+}
+
+/****************************hover*********************************************/
+a:hover{
+  color:#40E0D0;
+}
